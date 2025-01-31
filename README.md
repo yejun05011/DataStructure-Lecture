@@ -1,1 +1,1 @@
-# DataStructure-Lecture
+# DataStructure Lecture
