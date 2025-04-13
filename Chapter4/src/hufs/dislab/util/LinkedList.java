@@ -1,4 +1,4 @@
-package Chapter4.src.hufs.dislab.util;
+package hufs.dislab.util;
 
 public class LinkedList<E> extends List<E> {
 
@@ -145,7 +145,7 @@ public class LinkedList<E> extends List<E> {
     void deleteNext(ListNode p) {
         if (head == null)
             throw new NullPointerException();
-        if (p = null)
+        if (p == null)
             head = head.link;
         else {
             ListNode q = p.link;
@@ -218,7 +218,7 @@ public class LinkedList<E> extends List<E> {
             p = p.link;
 
             if (p != null)
-                str.append(",")
+                str.append(",");
         }
 
         str.append(")");

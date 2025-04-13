@@ -1,4 +1,4 @@
-package Chapter3.src.hufs.dislab.util;
+package hufs.dislab.util;
 
 public class ArrayList<E> extends List<E> {
     

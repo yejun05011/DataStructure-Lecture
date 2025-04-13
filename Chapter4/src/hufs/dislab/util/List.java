@@ -1,4 +1,4 @@
-package Chapter4.src.hufs.dislab.util;
+package hufs.dislab.util;
 
 import java.util.NoSuchElementException;
 
