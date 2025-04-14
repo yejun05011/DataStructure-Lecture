@@ -11,6 +11,10 @@ public class DoubleLinkedList<E> extends List<E> {
      * Java에서는 변수의 값을 null로 설정하지 않아도 기본적으로 null이 된다.
      */
 
+    public DoubleLinkedList() {
+    }
+    
+
     public class ListNode {
         E data;
         ListNode rlink;
@@ -181,6 +185,11 @@ public class DoubleLinkedList<E> extends List<E> {
 
         if (tail == null)
             head = tail = newNode;
+        else {
+            tail.rlink = newNode;
+            tail = newNode;
+        }
+        
         length++;
     }
 
